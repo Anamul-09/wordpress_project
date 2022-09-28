@@ -1,0 +1,3 @@
+database name:wp_project1
+username  :	admin
+password  :  	admin

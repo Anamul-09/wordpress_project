@@ -1,0 +1,8 @@
+
+Database Name :wp_project2
+
+
+
+Site Title :wp_project2
+Username   :anam
+Password   :anam
