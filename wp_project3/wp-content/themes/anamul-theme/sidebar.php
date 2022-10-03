@@ -1,5 +1,6 @@
-<div id="sidebar">
-    <ul>
+<?php dynamic_sidebar('sidebar-1')?>
+<!-- <div id="sidebar"> -->
+    <!-- <ul>
       <li>
         <h2>Pages</h2>
         <ul>
@@ -48,5 +49,5 @@
           <li><a href="#">WordPress</a></li>
         </ul>
       </li>
-    </ul>
-  </div>
+    </ul> -->
+  <!-- </div> -->
