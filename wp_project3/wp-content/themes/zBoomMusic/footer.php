@@ -1,7 +1,9 @@
+
 <footer>
 	<div class="wrap-footer zerogrid">
 		<div class="row block09">
-			<div class="col-1-4">
+		<?php dynamic_sidebar('footer-sb-2')?>
+			<!-- <div class="col-1-4">
 				<div class="wrap-col">
 					<div class="box">
 						<div class="heading"><h2>About Us</h2></div>
@@ -12,6 +14,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-1-4">
 				<div class="wrap-col">
 					<div class="box">
@@ -28,6 +31,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-1-4">
 				<div class="wrap-col">
 					<div class="box">
@@ -40,6 +44,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-1-4">
 				<div class="wrap-col">
 					<div class="box">
@@ -54,14 +59,15 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 		
-		<div class="row copyright">
-			<p>Copyright © 2013 - <a href="https://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Free Html5 Templates</a> by <a href="https://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
-		</div>
+		
 	</div>
 </footer>
+<div class="row copyright">
+			<p>Copyright © 2013 - <a href="https://www.zerotheme.com/432/free-responsive-html5-css3-website-templates.html" target="_blank">Free Html5 Templates</a> by <a href="https://www.zerotheme.com" target="_blank">Zerotheme.com</a></p>
+		</div>
 <?php wp_footer()?>
 </body>
 

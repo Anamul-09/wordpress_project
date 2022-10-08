@@ -1,0 +1,5 @@
+database name :wp_project4
+
+Site Title:Multisite
+Username:admin
+Password:admin
