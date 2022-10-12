@@ -1,0 +1,11 @@
+		// wordpress securing
+
+# First :wp_content folder putting one stape upper.
+
+#second: wp_config.php file put the bellow function.
+
+define('WP_CONTENT_DIR',
+ $_SERVER['DOCUMENT_ROOT'].'\anamul\wdpf51_WP\wp-content');
+
+ define('WP_CONTENT_URL',
+ 'http://localhost/anamul/wdpf51_WP/wp_project3/wp-content');

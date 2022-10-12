@@ -20,6 +20,8 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'E:\xampp\htdocs\anamul\wdpf51_WP\wp-project5\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'wp_project5' );
 
 /** Database username */

@@ -1,0 +1,5 @@
+database name :wp_test
+
+Site Title:Multisite
+Username:admin
+Password:admin

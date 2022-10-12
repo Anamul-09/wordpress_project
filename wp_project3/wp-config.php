@@ -92,5 +92,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
+
+		// wordpress securing
+define('WP_CONTENT_DIR',
+ $_SERVER['DOCUMENT_ROOT'].'\anamul\wdpf51_WP\wp-content');
+
+ define('WP_CONTENT_URL',
+ 'http://localhost/anamul/wdpf51_WP/wp_project3/wp-content');
+
+
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
