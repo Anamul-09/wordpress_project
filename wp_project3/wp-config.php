@@ -98,7 +98,13 @@ define('WP_CONTENT_DIR',
  $_SERVER['DOCUMENT_ROOT'].'\anamul\wdpf51_WP\wp-content');
 
  define('WP_CONTENT_URL',
- 'http://localhost/anamul/wdpf51_WP/wp_project3/wp-content');
+ 'http://localhost/anamul/wdpf51_WP/wp-content');
+
+ define('WP_PLUGIN_DIR',
+ $_SERVER['DOCUMENT_ROOT'].'\anamul\wdpf51_WP\plugins');
+
+ define('WP_PLUGIN_URL',
+ 'http://localhost/anamul/wdpf51_WP/plugins');
 
 
 /** Sets up WordPress vars and included files. */
